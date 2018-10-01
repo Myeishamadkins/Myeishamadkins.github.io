@@ -9,3 +9,16 @@ body {
     text-decoration: none;
     color: black;
 }
+.whole-container {
+    border: 5px solid rgb(155, 17, 84);
+}
+h1 {
+    color: rgb(155, 17, 84);
+}
+.contact-link {
+    color: black;
+}
+.contact-link:hover {
+    text-decoration: none;
+    color: rgb(155, 17, 84);
+}
