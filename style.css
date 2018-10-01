@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://www.muralswallpaper.com/app/uploads/black-marble-textures-plain.jpg");
+}
+.nav-item:hover {
+    background-color: white;
+    color: black;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
