@@ -25,3 +25,12 @@ a:hover {
 .nav-item > .nav-link.active {
     background-color: rgb(155, 17, 84);
 }
+
+.special-image {
+    background-image: url("./images/profilepic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
