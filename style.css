@@ -18,7 +18,10 @@ h1 {
 .contact-link {
     color: black;
 }
-.contact-link:hover {
+a:hover {
     text-decoration: none;
     color: rgb(155, 17, 84);
+}
+.nav-item > .nav-link.active {
+    background-color: rgb(155, 17, 84);
 }
