@@ -14,6 +14,7 @@ body {
 }
 h1 {
     color: rgb(155, 17, 84);
+    font-family: "Pattaya", sans-serif;
 }
 .contact-link {
     color: black;
@@ -33,4 +34,19 @@ a:hover {
     min-width: 200px;
     height: 200px;
     border-radius: 100px;
+}
+.link-image {
+    height: 18rem;
+    width: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link-image > span {
+    color: rgba(255, 255, 255, 0);
+}
+
+.link-image:hover > span {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.5);
 }
