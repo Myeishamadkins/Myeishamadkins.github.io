@@ -55,3 +55,16 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+.card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.image-header,
+.front-text {
+    color: rgb(155, 17, 84);
+    font-family: "Francois One", sans-serif;
+}
+/* .text-muted {
+    font-style: italic;
+} */
