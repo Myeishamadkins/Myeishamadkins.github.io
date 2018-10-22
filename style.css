@@ -33,7 +33,7 @@ a:hover {
     background-size: cover;
     min-width: 200px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 .link-image {
     height: 18rem;
