@@ -68,3 +68,13 @@ a:hover {
 .text-muted {
     font-style: italic;
 }
+
+@media screen and (min-width: 600px) {
+    .aboutMe,
+    .baseCamp,
+    .projectCard,
+    .contactMe,
+    .project {
+        display: flex;
+    }
+}
