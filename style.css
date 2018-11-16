@@ -69,6 +69,20 @@ a:hover {
     font-style: italic;
 }
 
+h3 {
+    color: rgb(155, 17, 84);
+}
+
+.linkToSite {
+    color: #212529;
+}
+
+.baseCamp-atag,
+.aboutMe-atag {
+    text-decoration: none;
+    color: rgb(155, 17, 84);
+}
+
 @media screen and (min-width: 600px) {
     .aboutMe,
     .baseCamp,
