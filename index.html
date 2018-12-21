@@ -80,207 +80,37 @@
                     <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
                         <div class="projectCard card">
                             <div class="card-header">
-                                <div class="row padded-row justify-content-center">
-                                    <ul class="nav nav-pills" id="myTab" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" id="python-tab" data-toggle="tab" href="#python" role="tab" aria-controls="python" aria-selected="true">Python</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" id="html_css-tab" data-toggle="tab" href="#html_css" role="tab" aria-controls="html_css" aria-selected="false">Html/Css/JavaScript</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" id="pills-python-tab" data-toggle="pill" href="#pills-python" role="tab" aria-controls="pills-python" aria-selected="true">Python</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="pills-htmlCssJavascript-tab" data-toggle="pill" href="#pills-htmlCssJavascript" role="tab" aria-controls="pills-htmlCssJavascript" aria-selected="false">HTML/CSS/Javascript</a>
+                                    </li>
+                                  </ul>
                             </div>
                             <p class="text-center pt-3 text-muted">Feel free to click on the image and see my code!</p>
                             <div class="card-body">
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="python" role="tabpanel
-                   " aria-labelledby="python-tab">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-python" role="tabpanel" aria-labelledby="pills-python-tab">
                                         <div class="project justify-content-center">
-                                            <div class="">
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Tetris" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/tetris.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Tetris</h3>
-                                                        <hr>
-                                                        <p class="image-text">Made with tkinter</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Rental_Agency_MyeishaMadkins" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/rental_store.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Rental Agency</h3>
-                                                        <hr>
-                                                        <p class="image-text">Python Final Project</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project justify-content-center">
-                                            <div class="">
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Gladiator-game" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/gladiator.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Gladiator Game</h3>
-                                                        <hr>
-                                                        <p class="image-text">Working on dictionaries in python</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <div>
-                                                            <a href="https://github.com/Myeishamadkins/Blackjack" target="_blank"><div
-                                                                    class="link-image" style="background-image:url('./images/blackjack.png')"></div></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Blackjack</h3>
-                                                        <hr>
-                                                        <p class="image-text">Made after a mouth of programming</p>
-                                                    </div>
+                                            <div class="card">
+                                                <div
+                                                    class="card-body"
+                                                    id="placePythonTemplate">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="html_css" role="tabpanel" aria-labelledby="html_css-tab">
-                                        <div class="project justify-content-center">
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Myeisha-Madkins-Web-Rental-Agency" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/homepage.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Front End Final Project</h3>
-                                                        <hr>
-                                                        <p class="image-text">Made using HTML, CSS,</p>
-                                                        <p class="image-text">JavaScript, & Bootstrap</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Book_store_replication" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/bookstore.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Bookstore</h3>
-                                                        <hr>
-                                                        <P class="image-text"> Using Bootstrap and custom CSS on a</P>
-                                                        <P class="image-text">Django template to design a bookstore</P>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project justify-content-center">
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Component-Practice-PypiTrendingNewProjects" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/slackfeatures.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Slack Features</h3>
-                                                        <hr>
-                                                        <p class="image-text">Using HTML & CSS to design a</p>
-                                                        <p class="image-text">HTML file to resemble a picture.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Component-Practice-GithubLogin" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/GithubLogin.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Github Login</h3>
-                                                        <hr>
-                                                        <p class="image-text">Using Bootstrap to design a </p>
-                                                        <p class="image-text">HTML file to resemble a picture.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project justify-content-center">
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Component-Practice-DevtoArticleCard" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/DevtoArticleCard.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Devto Article Card</h3>
-                                                        <hr>
-                                                        <p class="image-text">Using HTML & CSS to design a</p>
-                                                        <p class="image-text">HTML file to resemble a picture.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Component-Practice-PypiTrendingNewProjects" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/pypitrending.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Pypi Trending</h3>
-                                                        <h3 class="image-header">New Projects</h3>
-                                                        <hr>
-                                                        <p class="image-text">Using HTML & CSS to design a</p>
-                                                        <p class="image-text">HTML file to resemble a picture.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project justify-content-center">
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Component-Practice-DevtoKeyLinks" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/key links.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Devto Key Links</h3>
-                                                        <hr>
-                                                        <p class="image-text">Using HTML & CSS to design a</p>
-                                                        <p class="image-text">HTML file to resemble a picture.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="card m-3">
-                                                    <div class="card-header">
-                                                        <a href="https://github.com/Myeishamadkins/Component-Practice-DevtoELI5" target="_blank"><div
-                                                                class="link-image" style="background-image:url('./images/explainlikeimfive.png')"></div></a>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h3 class="image-header">Explain like in five</h3>
-                                                        <hr>
-                                                        <p class="image-text">Using HTML & CSS to design a</p>
-                                                        <p class="image-text">HTML file to resemble a picture.</p>
-                                                    </div>
-                                                </div>
+                                    <div class="tab-pane fade" id="pills-htmlCssJavascript" role="tabpanel" aria-labelledby="pills-htmlCssJavascript-tab">
+                                        <div class="project d-flex justify-content-center">
+                                            <div class="card-deck">
+                                                <div class="card" id="placehtmlCssJavascriptTemplate"></div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                  </div>
                             </div>
-                        </div>
                     </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="contactMe card m-3">
@@ -309,6 +139,70 @@
             </div>
         </div>
     </div>
+
+
+    <script id="template" type="text/x-handlebars-template">
+        <div class="d-flex">
+                <div class="card m-3">
+                    <div class="card-header">
+                        <div>
+                            <img class='img-thumbnail' src="{{imageUrl}}" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="image-header">{{title}}</h3>
+                        <hr>
+                        <p class="image-text">{{language}}</p>
+                        <p class="image-text">{{description}}</p>
+                    </div>
+                </div>
+                <div class="card m-3">
+                    <div class="card-header">
+                        <div>
+                            <img class='img-thumbnail' src="{{imageUrlA}}" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="image-header">{{titleA}}</h3>
+                        <hr>
+                        <p class="image-text">{{languageA}}</p>
+                        <p class="image-text">{{descriptionA}}</p>
+                    </div>
+                </div>
+            </div>
+    </script>
+
+    <script id="template2" type="text/x-handlebars-template">
+        <div class="d-flex">
+                <div class="card m-3">
+                    <div class="card-header">
+                        <div>
+                            <img class='img-thumbnail' src="{{imageUrl}}" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="image-header">{{title}}</h3>
+                        <hr>
+                        <p class="image-text">{{language}}</p>
+                        <p class="image-text">{{description}}</p>
+                    </div>
+                </div>
+                <div class="card m-3">
+                    <div class="card-header">
+                        <div>
+                            <img class='img-thumbnail' src="{{imageUrlA}}" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="image-header">{{titleA}}</h3>
+                        <hr>
+                        <p class="image-text">{{languageA}}</p>
+                        <p class="image-text">{{descriptionA}}</p>
+                    </div>
+                </div>
+            </div>
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
@@ -317,6 +211,7 @@
         crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB "
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
     <script src="javaScript.js"></script>
 </body>
 
