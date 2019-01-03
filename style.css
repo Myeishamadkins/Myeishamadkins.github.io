@@ -96,7 +96,11 @@ h3 {
     .baseCamp,
     .projectCard,
     .contactMe,
-    .project {
+    .project,
+    .img-thumbnail,
+    .image-text,
+    .image-header,
+    .card-header {
         display: flex;
     }
 }
