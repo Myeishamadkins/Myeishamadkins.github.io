@@ -38,7 +38,7 @@ const PAGE_DATA = {
                 "https://github.com/Myeishamadkins/Myeisha-Madkins-Web-Rental-Agency",
             title: "Front End Final Project",
             language: "HTML, CSS, JavaScript",
-            description: "Made using HTML, CSS, JavaScript, & Boostrap"
+            description: "Made using HTML, CSS, JavaScript, & Bootstrap"
         },
         {
             imageUrl: "./images/bookstore.png",
