@@ -157,3 +157,4 @@ function htmlCssJavascriptProjectContent() {
         .insertAdjacentHTML("beforeend", content);
 }
 htmlCssJavascriptProjectContent();
+
