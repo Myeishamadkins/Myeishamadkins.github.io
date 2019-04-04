@@ -14,8 +14,8 @@
     <body>
         <div class="left-container">
                 <div class="p-3">
-                    <div class="d-flex justify-content-center">
-                        <img class="" style="height:165px" src="/images/maroonlogo.png" alt="">
+                    <div class="container-all">
+                        <img class="icon-logo" src="/images/maroonlogo.png" alt="">
                     </div>
                     <p class="text-center">Contacts:</p>
                     <hr>
@@ -41,8 +41,8 @@
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                     <div class="aboutMe">
                         <h1 class="text-center">Welcome</h1>
-                        <div class="d-flex">
-                            <img class="profilepic" src="/images/profilepic.jpg" alt="">
+                        <div class="about-container">
+                            <img class="profilepic" src="/images/Screenshot from 2019-04-04 09-19-04.png" alt="">
                             <div class="card-body">
                                     <h2 class="">About Me</h2>
                                     <p>My name is Myeisha Madkins. I am from the college town of Oxford, Ms. I graduated from Oxford High School, home of the Chargers: Blue and Gold. While there, I participated in various extracurricular activities including being apart of the award-winning Charger Band, award-winning and greatly recognized Charger Newspaper, online Newspaper, and Yearbook staff, and leading many clubs. </p>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="languages d-flex justify-content-between">
+                    <div class="languages ">
                         <div class="pt-3">
                             <h2 class="text-center">Languages:</h2>
                             <hr>
@@ -88,30 +88,46 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+                <div class=" tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
                     <div class="featuredProjects pt-3">
                         <h1 class="text-center">Featured Projects</h1>
-
+                        <div class="card ">
+                            <div class="djangoProject">
+                                <div class="">
+                                    <h2>Base Camp Coding Academy Job Board</h2>
+                                    <h5>HTML, CSS, Python, and Django</h5>
+                                    <p>Goal of the assignment: Construct Base Camp Coding Academy</p>
+                                    <p>Source Code: <a href="https://github.com/Myeishamadkins/BCCA_Job_Board">https://github.com/Myeishamadkins/BCCA_Job_Board</a></p>
+                                    <ul>
+                                        <li>Allow employers to post jobs to the job board</li>
+                                        <li>Support user comments on listed jobs</li>
+                                        <li>Developed admin interface to manage existing job posting</li>
+                                    </ul>
+                                </div>
+                                <img class="image-size" src="/images/bccaJobBoard.png" alt="">
+                            </div>
+                        </div>
+                        <br>
                         <div class="card">
-                            <div class="htmlProject d-flex">
-                                <div class="col-8">
+                            <div class="htmlProject ">
+                                <div class="">
                                     <h2>World of Warcraft Race Class Selector Website</h2>
                                     <h5>HTML and CSS</h5>
                                     <p>Goal of the assignment: Replicate the UI from World of Warcraft character creation</p>
-                                    <p>Live Demo: <a href="https://myeishamadkins.github.io/World-of-Warcraft-Race-Class-Slector/">https://myeishamadkins.github.io/World-of-Warcraft-Race-Class-Slector/</a></p>
+                                    <p>Source Code: <a href="https://myeishamadkins.github.io/World-of-Warcraft-Race-Class-Slector/">https://myeishamadkins.github.io/World-of-Warcraft-Race-Class-Slector/</a></p>
                                     <ul>
                                         <li>Layout UI character creation screen with CSS Grid</li>
                                         <li>Animated input valid/invalid transitions with CSS Transitions and Animations</li>
                                         <li>Parameterized input elements with HTML Data Attributes to simplify validation code</li>
                                     </ul>
                                 </div>
-                                <img class="col-4" src="/images/worldOfWarCraft.png" alt="">
+                                <img class="image-size" src="/images/worldOfWarCraft.png" alt="">
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="javaProject d-flex">
-                                <div class="col-8">
+                            <div class="javaProject">
+                                <div class="">
                                     <h2>Admissions Management System</h2>
                                     <h5>Java, Spring MVC, and PostgresSQL</h5>
                                     <p>Goal of the assignment: Build full stack software solution to support Base Camp Coding Academy’s admission process</p>
@@ -123,12 +139,12 @@
                                         <li>Built backend with Java, Spring MVC, and PostgreSQL</li>
                                     </ul>
                                 </div>
-                                <img class="col-4" src="/images/bcca_homepage.png" alt="">
+                                <img class="image-size" src="/images/bcca_homepage.png" alt="">
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <div class="projectList d-flex justify-content-between">
+                    <div class="projectList ">
                         <div class="pythonList p-1">
                             <h3 class="text-center">Python</h3>
                             <hr>
@@ -142,12 +158,19 @@
                                 <li><a href="https://github.com/Myeishamadkins/Deaf_Grandma">Deaf Grandma</a></li>
                             </ul>
                         </div>
+                        <div class="djangoList p-1">
+                            <h3 class="text-center">Django</h3>
+                            <hr>
+                            <ul>
+                                <li><a href="https://github.com/Myeishamadkins/Book_store_replication"></a>Bookstore</a></li>
+                                <li><a href="https://github.com/Myeishamadkins/BCCA_Job_Board">Base Camp Coding Acadmey Job Board</a></li>
+                            </ul>
+                        </div>
                         <div class="htmlList p-1">
                             <h3 class="text-center">Html/Css</h3>
                             <hr>
                             <ul>
                                 <li><a href="https://github.com/Myeishamadkins/Myeisha-Madkins-Web-Rental-Agency">Frontend Final Project</a></li>
-                                <li><a href="https://github.com/Myeishamadkins/Book_store_replication">Bookstore</a></li>
                                 <li><a href="https://github.com/Myeishamadkins/Component-Practice-SlackFeatures">Slack Features</a></li>
                                 <li><a href="https://github.com/Myeishamadkins/Halloween_Tic_Tac_Toe">Halloween Tic Tac Toe</a></li>
                                 <li><a href="https://github.com/Myeishamadkins/Component-Practice-GithubLogin">Github Login</a></li>
@@ -167,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="v-pills-gallery" role="tabpanel" aria-labelledby="v-pills-gallery-tab">
+                <div class="project-gallery tab-pane fade" id="v-pills-gallery" role="tabpanel" aria-labelledby="v-pills-gallery-tab">
                     <h1 class="text-center mt-5">Project Gallery</h1>
                     <div class="java">
                         <div class="card-group p-2">
